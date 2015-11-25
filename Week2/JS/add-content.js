@@ -1,4 +1,4 @@
-var price =[10,5,1];
+var price =[10, 5, 1];
 var products = ["Stamford T-Shirt", "Stamford Notebook", "Stamford Wristband"];
 var total = 0;
 
