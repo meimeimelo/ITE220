@@ -5,8 +5,7 @@ var total = 0;
 //calculate the total price below
 var productList= document.getElementById("productList");
 productList.innerHTML += "<li>" +products[0] +": $" + price[0] +"</li>"
-productList.innerHTML += "<li>" +products[0] +": $" + price[0] +"</li>"
-productList.innerHTML += "<li>" +products[0] +": $" + price[0] +"</li>"
+
 
 //Display purchase product to the screen
 total = price[0];
