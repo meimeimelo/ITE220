@@ -1,10 +1,15 @@
-var price;
-var quanlity;
-var total;
+var price =[10,5,1];
+var products = ["Stamford T-Shirt", "Stamford Notebook", "Stamford Wristband"];
+var total = 0;
 
-price = 5;
-quanlity = 14;
-total = price * quanlity;
+//calculate the total price below
+var productList= document.getElementById("productList");
+productList.innerHTML += "<li>" +products[0] +": $" + price[0] +"</li>"
+productList.innerHTML += "<li>" +products[0] +": $" + price[0] +"</li>"
+productList.innerHTML += "<li>" +products[0] +": $" + price[0] +"</li>"
+
+//Display purchase product to the screen
+total = price[0];
 
 //document.write("Total is" + total);
 var totalPriceEle= document.getElementById("totalPrice");
