@@ -10,7 +10,7 @@ for ( var i = 1; i <= dayInMonth; i++) {
       stringHTML += "<tr>";
       count++
   }
-  if( count === 6 ) {
+  if( count === 7 ) {
     stringHTML += "</tr>";
     count = 0;
   }
