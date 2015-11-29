@@ -10,3 +10,6 @@ var hotel = {
 
 var hotelName = document.getElementById('hotelName');
 hotelName.textContent = hotel.name;
+
+var hotelRooms = document.getElementById('rooms');
+hotelRooms.textContent = hotel.checkAvailability();
