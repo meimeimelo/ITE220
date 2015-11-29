@@ -11,7 +11,7 @@ productList.innerHTML += "<li>" +products[2] +": $" + price[2] +"</li>"
 //Display purchase product to the screen
 // total = price[0] + price[1] + price[2];
 total = price.reduce(function(prev, curr) { return prev + curr });
-total = total - (total * 0.2);
+total -= total * 0.2;
 
 //document.write("Total is" + total);
 var totalPriceEle= document.getElementById("totalPrice");
