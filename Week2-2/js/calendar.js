@@ -10,12 +10,15 @@ for ( var i = 1; i <= dayInMonth; i++) {
       stringHTML += "<tr>";
       count++
   }
-  if( count === 7 ) {
+  if( count === 8 ) {
     stringHTML += "</tr>";
     count = 0;
   }
-  else count ++;
-  stringHTML += "<td>" + i + "</td>";
+  else {
+    stringHTML += "<td>" + i + "</td>";
+    count ++;
+  }
+
 }
 // stringHTML = "<tr><td>1</td><td>2</td></tr>";
 hotelTable.innerHTML += stringHTML;
