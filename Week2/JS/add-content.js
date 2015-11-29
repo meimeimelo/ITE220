@@ -17,3 +17,14 @@ total = price.reduce(function(prev, curr) {
 //document.write("Total is" + total);
 var totalPriceEle= document.getElementById("totalPrice");
 totalPriceEle.textContent = "$"+ total;
+
+var hourOfTheDay = new Date().getHours();
+if (hourOfTheDay < 12 || hourOfTheDay === 24){
+	document.getElementById("greeting").innerHTML = "Good Morning"
+}
+else if (hourOfTheDay >= 12 && hourOfTheDay < 17){
+	document.getElementById("greeting").innerHTML = "Good Afternoon"
+}
+else {
+	document.getElementById("greeting").innerHTML = "Good Evening"
+}
