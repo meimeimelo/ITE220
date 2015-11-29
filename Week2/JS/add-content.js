@@ -9,7 +9,7 @@ productList.innerHTML += "<li>" +products[1] +": $" + price[1] +"</li>"
 productList.innerHTML += "<li>" +products[2] +": $" + price[2] +"</li>"
 
 //Display purchase product to the screen
-total = price[0];
+total = price[0] + price[1] + price[2];
 
 //document.write("Total is" + total);
 var totalPriceEle= document.getElementById("totalPrice");
