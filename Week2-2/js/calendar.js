@@ -11,12 +11,12 @@ for ( var i = 1; i <= dayInMonth; i++) {
       count++
   }
   if( count === 8 ) {
-    stringHTML += "</tr>";
+    stringHTML += "<td>" + i + "</td></tr>";
     count = 0;
   }
   else {
     stringHTML += "<td>" + i + "</td>";
-    count ++;
+    count++;
   }
 
 }
