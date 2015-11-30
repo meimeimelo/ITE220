@@ -1,6 +1,6 @@
 body {
 	font-family:  sans-serif;
-	background-image: url("images/stamfordwallpaper.jpg");
+	background-image: url('.../images/stamfordwallpaper.jpg');
 }
 .content {
 	text-align: center;
