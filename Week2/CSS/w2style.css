@@ -1,6 +1,7 @@
 body {
 	font-family:  sans-serif;
 	background-attachment:fixed;
+	background-position: center; 
 	background-image: url("../Images/stamfordwallpaper.jpg");
 }
 .content {
