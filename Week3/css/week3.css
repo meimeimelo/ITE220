@@ -12,8 +12,7 @@ body {
   margin: 0 auto 0 auto;
 }
 
-
-#stats {
+#stats #heightwidth {
   background-color: #6cc0ac;
   color: #ffffff;
   position: fixed;
