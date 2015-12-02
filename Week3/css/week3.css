@@ -13,7 +13,7 @@ body {
 }
 
 
-#stats #heightwidth {
+#stats {
   background-color: #6cc0ac;
   color: #ffffff;
   position: fixed;
@@ -23,7 +23,7 @@ body {
   width: 100%;
 }
 
-#stats #heightwidth input[type="text"] {
+#stats  input[type="text"] {
   width: auto;
   margin: 0 10px 0 10px;
   background-color: #fff;
