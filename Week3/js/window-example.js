@@ -13,7 +13,7 @@ var myWindow = {
 		ele.value = this.screenX;
 
 		ele = document.getElementById("sy");
-		ele.value = this.screenY;
+		ele.value = window.screenY;
 
 		ele = document.getElementById("sw");
 		ele.value = window.screen.width;
