@@ -5,7 +5,6 @@ body {
   font-family: 'Oswald', 'Futura', sans-serif;
   margin: 0;
   padding: 0;
-  align-content: center;
 }
 
 #page {
@@ -21,6 +20,7 @@ body {
   left: 0;
   padding: 20px;
   width: 100%;
+  align-content: center;
 }
 
 #stats  input[type="text"] {
