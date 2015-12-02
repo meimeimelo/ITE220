@@ -16,10 +16,10 @@ var myWindow = {
 		ele.value = this.screenY;
 
 		ele = document.getElementById("sw");
-		ele.value = this.screen.width;
+		ele.value = window.screen.width;
 
 		ele = document.getElementById("sh");
-		ele.value = this.screen.height;
+		ele.value = window.screen.height;
 	}
 };
 console.log(myWindow.screenW);
