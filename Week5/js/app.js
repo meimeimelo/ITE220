@@ -30,6 +30,12 @@ $(function(){
 			//send us email action
 			$("#form-submit").on("click",function(){
 				var phonenum = $("#form-number").val();
+				if(!$.isNumeric(phonenum)){
+					$(".error:first").show();
+				}
+				else{
+					$(".error:first").hide();
+				}
 			});
 		}
 
