@@ -9,6 +9,7 @@ $(function(){
 		init_effect: function() {
 			$("#head_tagline>h1").hide().fadeIn(700);
 			$("#head_tagline>p:first").hide().delay(700).fadeIn(700);
+			$("#head_tagline>p:last").hide().delay(1400).fadeIn(700);			
 		},
 
 		init_event: function() {
