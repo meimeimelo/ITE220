@@ -37,6 +37,9 @@ $(function(){
 					$(".error:first").hide();
 				}
 			});
+
+			//image flip
+			$(".image-flip").flip();
 		}
 
 	};
