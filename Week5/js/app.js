@@ -6,7 +6,7 @@ $(function(){
 		},
 
 		init_effect: function() {
-			$("#head_tagline h1").hide().fadeIn(700);
+			$("#head_tagline>h1").hide().fadeIn(700);
 		},
 
 		init_event: function() {
