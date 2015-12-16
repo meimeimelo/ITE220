@@ -7,6 +7,7 @@ $(function(){
 
 // '>' means direct into that line
 		init_effect: function() {
+			$("#head_tagline").height();
 			$("#head_tagline>h1").hide().fadeIn(700);
 			$("#head_tagline>p:first").hide().delay(700).fadeIn(700);
 			$("#head_tagline>p:last").hide();
