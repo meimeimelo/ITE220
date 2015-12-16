@@ -39,9 +39,12 @@ $(function(){
 			});
 
 			//image flip
-			$(".image-flip").flip();
-		}
+			$(".image-flip").flip({
+				axis: 'y',
+				trigger: 'hover'
+			});
 
+		}
 	};
 	app.init();
 });
