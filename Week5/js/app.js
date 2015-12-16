@@ -19,6 +19,11 @@ $(function(){
 				$("#head_tagline").height(350);
 				$("#head_tagline>p:last").fadeIn(700);
 			});
+
+			$("#head_tagline>a:last").on("click",function(){
+				$("#head_tagline").height(200);
+				$("#head_tagline>p:last").fadeOut(700);
+			});
 		}
 
 	};
