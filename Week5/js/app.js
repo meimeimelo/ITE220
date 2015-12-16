@@ -22,7 +22,7 @@ $(function(){
 
 			$("#head_tagline>a:last").on("click",function(){
 				$("#head_tagline").height(200);
-				$("#head_tagline>p:last").hide().fadeOut(700);
+				$("#head_tagline>p:last").hide();
 			});
 		}
 
