@@ -16,7 +16,7 @@ $(function(){
 
 		init_event: function() {
 			$("#head_tagline>a:first").on("click",function(){
-				$("#head_tagline").height(300);
+				$("#head_tagline").height(350);
 				$("#head_tagline>p:last").fadeIn(700);
 			});
 		}
