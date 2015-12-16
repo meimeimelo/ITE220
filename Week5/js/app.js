@@ -15,7 +15,9 @@ $(function(){
 		},
 
 		init_event: function() {
-
+			$("#head_tagline>a:first").on("click",function(){
+				$("#head_tagline>p:last").fadeIn(700);
+			});
 		}
 
 	};
