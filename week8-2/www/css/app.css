@@ -1,0 +1,109 @@
+small.error {
+    display: block;
+    font-size: 0.66667rem;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 0.88889rem;
+    margin-top: -1px;
+    padding: 0.33333rem 0.5rem 0.5rem;
+    background: #f04124;
+    color: #FFFFFF;
+}
+.form-with-error {
+	margin-bottom: 0px;
+}
+
+textarea {
+	min-height: 200px;
+}
+
+.image-flip {
+	height: 300px;
+	/*width: 300px;*/
+}
+
+body{
+  background-image: url('../image/darkgrey.jpg');
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.head img{
+  margin-top: 50px;
+  top: 10%;
+}
+
+.frame{
+  border: 6px solid #fff;
+  width: 400px;
+  margin-top: 50px;
+  padding-top: 20px;
+  position: relative;
+  color: #fff;
+}
+
+
+.container{
+  position: relative;;
+  margin-top: 20px;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.resultcontainer{
+  position: relative;
+  width: 1425px;
+  height: 450px;
+  color: white;
+  background-color: #fbdddf;
+
+}
+
+.phantasia{
+  text-align: center;
+  position: relative;
+  height: 450px;
+}
+
+.mainresult{
+  padding-top: 50px;
+  background-color: #fbdddf;
+  position: relative;
+  height: 450px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 150%;
+}
+
+.mainresult h3{
+  font-weight: bold;
+  font-family: Helvetica;
+  font-style: italic
+}
+
+.button{
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: all 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.85em 1em;
+  margin: 0 1rem 1rem 0;
+  font-size: 0.9rem;
+  background: #f8b5cb;
+  color: #ffffff;
+}
+
+.information{
+  margin-top: 20px;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  position: relative;
+}
