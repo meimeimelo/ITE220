@@ -1,15 +1,144 @@
 body{
   color: #fff;
+  background-image: url('../img/bg2.jpg');
+  position: relative;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.header{
+    color: #fff;
+    font-family: 'Montserrat', serif;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .bangkok {
-  background-color: grey;
+  text-decoration: none;
+  color: #fff;
+  height: 300px;
+  vertical-align: middle;
+  font-family: 'Montserrat', serif;
 }
+
+.bangkok a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.bangkok a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.bangkok a:active{
+  text-decoration: none;
+  color: #fff;
+}
+
+.bangkok a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+.bangkok a:focus{
+  text-decoration: none;
+  color: #fff;
+}
+
+.bangkok a:link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.bangkok li{
+  list-style-type: none;;
+}
+
+/*Tokyo*/
 
 .tokyo{
-  background-color: blue;
+  text-decoration: none;
+  color: #fff;
+  height: 300px;
+  font-family: 'Montserrat', serif;
 }
 
-.london{
-  background-color: orange;
+.tokyo a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.tokyo a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.tokyo a:active{
+  text-decoration: none;
+  color: #fff;
+}
+
+.tokyo a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+.tokyo a:focus{
+  text-decoration: none;
+  color: #fff;
+}
+
+.tokyo a:link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.tokyo ul{
+  list-style-type: none;
+}
+
+/* London*/
+
+.london {
+  text-decoration: none;
+  color: #fff;
+  height: 300px;
+  font-family: 'Montserrat', serif;
+}
+
+.london a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.london a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.london a:active{
+  text-decoration: none;
+  color: #fff;
+}
+
+.london a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+.london a:focus{
+  text-decoration: none;
+  color: #fff;
+}
+
+.london a:link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.london ul{
+  list-style-type: none;
 }
